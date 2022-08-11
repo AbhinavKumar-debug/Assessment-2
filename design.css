@@ -9,7 +9,6 @@
     
 }
 :root {
-    background-image: url('portfolio-bg.jpg');
     /* Background Color */
     --primary-color: #4458dc;
     --secondary-color: #854fee;
@@ -30,6 +29,11 @@
     --primary-font: 'Rubik', sans-serif;
     --secondary-font: 'Roboto', sans-serif;
 }
+.user{
+    background-color: #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
 
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -37,15 +41,10 @@ body {
     background-repeat: no-repeat;
     
 }
-.class{
-    background-image: url('portfolio-bg.jpg');
-}
 .bg-fixed{
     margin-bottom: 10rem;
 }
-/* .logo{
 
-} */
 
 h1 {
     font-size: 4.375rem;
