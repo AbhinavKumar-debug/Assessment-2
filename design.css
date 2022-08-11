@@ -1,0 +1,150 @@
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    background-image: url('portfolio-bg.jpg');
+    /* Background Color */
+    --primary-color: #4458dc;
+    --secondary-color: #854fee;
+    --bg-white: #fff;
+    --bg-light: #faf8ff;
+    --bg-black: #000;
+    --bg-gray: #eee;
+    --gradient: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+
+    /* Text Color */
+    --primary-text: #4458dc;
+    --secondary-text: #854fee;
+    --text-white: #fff;
+    --text-black: #000;
+    --text-gray: #777;
+
+    /* Font Family */
+    --primary-font: 'Rubik', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+.class{
+    background-image: url('portfolio-bg.jpg');
+}
+.bg-fixed{
+    margin-bottom: 10rem;
+}
+/* .logo{
+
+} */
+
+h1 {
+    font-size: 4.375rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    color: var(--text-black);
+    margin-bottom: 1.25rem;
+    font-family: var(--primary-font);
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.4375rem;
+    margin-bottom: 1.5625rem;
+    color: var(--text-black);
+    font-family: var(--primary-font);
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+    margin-bottom: 0.9375rem;
+    color: var(--text-black);
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 2.1875rem;
+    color: var(--text-black);
+}
+
+p {
+    color: var(--text-gray);
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+}
+img{
+    max-width: 20%;
+    max-height: 20%;
+}
+.special-2{
+    display: inline-block;
+    background-image: linear-gradient(-45deg, #FF5B48, #FFB157, #50CCF1, #634DB6, #43BA88, #3977D3) !important;
+    background-size: 300% !important;
+    /* background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: Gradient 30s ease infinite !important;
+    -moz-animation: Gradient 30s ease infinite !important;
+    animation: Gradient 30s ease infinite !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 1rem;
+}
+/*  Navbar */
+.header_wrapper .navbar {
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.header_wrapper .navbar-brand img {
+    max-width: 10rem;
+    height: 6rem;
+}
+
+.header_wrapper .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.header_wrapper .nav-item {
+    margin: 0 0.625rem;
+}
+
+.header_wrapper .nav-item .nav-link {
+    font-family: var(--primary-font);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text-black);
+    display: inline-block;
+}
+
+.header_wrapper .nav-item .nav-link.active,
+.header_wrapper .nav-item .nav-link:hover {
+    color: var(--primary-text);
+}
+
+.header-scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.595rem;
+    background-color: var(--bg-white);
+    -webkit-box-shadow: 0 0.25rem 0.375rem 0 rgba(12, 0, 46, .05);
+    box-shadow: 0 0.25rem 0.375rem 0 rgba(12, 0, 46, .05);
+}
